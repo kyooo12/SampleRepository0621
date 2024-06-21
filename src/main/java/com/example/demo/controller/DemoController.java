@@ -82,7 +82,7 @@ public class DemoController {
 	public Test check() {
 		Test test = new Test();
 		test.setName("大谷翔平");
-		test.setScore(100);
+		test.setScore(200);
 		
 		return test;
 	}
