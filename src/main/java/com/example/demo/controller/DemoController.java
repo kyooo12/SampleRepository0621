@@ -81,7 +81,7 @@ public class DemoController {
 	@GetMapping("/test2")
 	public Test check() {
 		Test test = new Test();
-		test.setName("大谷 翔平");
+		test.setName("大谷翔平");
 		test.setScore(100);
 		
 		return test;
